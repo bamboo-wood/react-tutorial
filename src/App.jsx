@@ -7,7 +7,7 @@ const App = () => {
   return (
     <React.Fragment>
       <h1>hello</h1>
-      <ColorfulMessage color="blue" message="I'm bamboo-wood" />
+      <ColorfulMessage color="blue">I'm bamboo-wood</ColorfulMessage>
       <button onClick={onClickButton}>button</button>
     </React.Fragment>
   );

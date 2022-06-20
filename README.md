@@ -1,2 +1,2 @@
 # react-tutorial
-Created with CodeSandbox
+Learn the features of React

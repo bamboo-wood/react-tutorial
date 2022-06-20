@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   // 分割代入
   const { color, children } = props;
 
@@ -12,8 +12,16 @@ const ColorfulMessage = (props) => {
   return <p style={contentStyle}>{children}</p>;
 };
 
-export default ColorfulMessage;
-
 // -- memo
 // props.chirdren
 // タグの中身を参照する
+
+// export default xxx
+// export const xxx
+// 後者の方が命名が確約されるのでタイプミスを防ぐことができる
+
+// クラスコンポーネントと関数コンポーネント
+// 以前は関数コンポーネントでuseStateが使うことができなかった。
+// react-hooksで関数コンポーネントでuseStateを使うことができるようになった。
+// 昔はStateless function conpornentと言われていた？
+// っていう歴史があった。

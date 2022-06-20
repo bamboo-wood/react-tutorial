@@ -1,10 +1,14 @@
 import React from "react";
-
+import ColorfulMessage from "./components/ColorfulMessage";
 const App = () => {
+  // functions
+  const onClickButton = () => alert();
+  // view
   return (
     <React.Fragment>
       <h1>hello</h1>
-      <p>I'm bamboo-wood</p>
+      <ColorfulMessage color="blue" message="I'm bamboo-wood" />
+      <button onClick={onClickButton}>button</button>
     </React.Fragment>
   );
 };
